@@ -1,0 +1,15 @@
+.appContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  
+}
+.wrapper {
+  margin-top: 6rem;
+}
+@media screen and (max-width: 335px) {
+  .wrapper {
+  margin-top: 9rem;
+}
+  
+}

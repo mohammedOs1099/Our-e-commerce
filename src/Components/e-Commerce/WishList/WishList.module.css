@@ -1,0 +1,49 @@
+.WishListContainer {
+  position: relative;
+  cursor: pointer;
+  /* align-self: flex-end; */
+}
+.logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.WishListQuantity {
+  color: white  ;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -22px;
+  right: -10px;
+ font-weight: bold;
+  font-size:1rem;
+}
+.WishListContainer:hover .WishListQuantity{
+  color:#0DCAF0;
+}
+
+.quantityPumping {
+  animation: pumping 300ms ease-out;
+}
+@keyframes pumping {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(0.8);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.7);
+  }
+  100% {
+    transform: scale(1);
+    
+  }
+}
