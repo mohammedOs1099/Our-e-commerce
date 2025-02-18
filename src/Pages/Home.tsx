@@ -7,7 +7,7 @@ import useGetCategories from "../Hooks/useGetCategories";
 import useGetProducts from "../Hooks/useGetProducts";
 
 export default function Home() {
-  const { loading, error, productFullInfo } = useGetProducts();
+  const { error, productFullInfo } = useGetProducts();
   const {
     loading: loadingCategories,
     error: errorCategories,
